@@ -1,0 +1,1 @@
+# latex_ppt_beamer_sample
