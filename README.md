@@ -4,6 +4,7 @@ This repository contains scripts to convert LaTeX beamer presentations to PowerP
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
+  -[LaTeX Setup for VS Code](#latex-setup-for-vs-code)
 - [Setup Virtual Environment](#setup-virtual-environment)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -18,7 +19,19 @@ Before starting, ensure you have the following installed:
 * [Python](https://www.python.org/) (Version 3.8 or higher)
 * [Git](https://git-scm.com/)
 
----
+
+## LaTeX Setup for VS Code
+To edit and compile LaTeX documents within VS Code, follow these steps:
+
+1.  **Install a LaTeX Distribution**:
+    * **Windows**: [MiKTeX](https://miktex.org/download)
+    * **macOS**: [MacTeX](https://www.tug.org/mactex/)
+    * **Linux**: [TeX Live](https://www.tug.org/texlive/)
+2.  **Install VS Code Extension**: Search for and install **LaTeX Workshop** in the Extensions marketplace (`Ctrl+Shift+X`).
+3.  **Perl Installation**: Some packages require Perl.
+    * **Windows**: Download and install [Strawberry Perl](https://strawberryperl.com/).
+    * **macOS/Linux**: Pre-installed, or install via package manager (`brew install perl` or `sudo apt install perl`).
+4.  **Verify Installation**: Open a `.tex` file and press `Ctrl+Alt+B` (Windows/Linux) or `Cmd+Option+B` (macOS) to build the PDF.
 
 ## Setup Virtual Environment
 It is highly recommended to use a virtual environment to manage dependencies.
